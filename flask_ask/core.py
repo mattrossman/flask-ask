@@ -63,7 +63,7 @@ _converters = {'date': to_date, 'time': to_time, 'timedelta': to_timedelta}
 # It then extracts the relevant custom slot info and match type.
 # Where no match is found it initialises name and id to "" so checking is easier
 #
-_unicodeSuccessMatch = unicode('ER_SUCCESS_MATCH', 'utf8')
+_unicodeSuccessMatch = 'ER_SUCCESS_MATCH'
 class _slot():
     def __init__(self, slotData, arg_value):
         self.value = arg_value
